@@ -1,5 +1,5 @@
 - id: com.example.security.oauthToken
-  pattern: "_->oauthToken()"
+  pattern: "?->oauthToken()"
   message: |
     OAuth token is a credential
     Make sure not to expose the value to users or logs.
