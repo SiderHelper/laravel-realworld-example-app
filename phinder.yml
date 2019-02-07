@@ -1,6 +1,6 @@
 - id: com.example.security.oauthToken
- pattern: "?->oauthToken()"
- message: |
-   OAuth token is a credential
-   Make sure not to expose the value to users or logs.
-   Use `->filteredOAuthToken()` for obfuscated token.
+  pattern: "_->oauthToken()"
+  message: |
+    OAuth token is a credential
+    Make sure not to expose the value to users or logs.
+    Use `->filteredOAuthToken()` for obfuscated token.
