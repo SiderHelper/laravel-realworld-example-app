@@ -1,5 +1,5 @@
 - id: realworld.security.oauthToken
-  pattern: "?->oauthToken()"
+  pattern: "_->oauthToken()"
   message: |
     OAuth token is a credential
     Make sure not to expose the value to users or logs.
