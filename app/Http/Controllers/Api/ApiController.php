@@ -147,7 +147,7 @@ class ApiController extends Controller
      */
     protected function respondNotFound($message = 'Not Found')
     {
-        $token = $this->oauthToken();
+        $token = $this->filteredOAuthToken();
         Logger::debug("respondFailed: $token");
         
         return $this->respondError($message, 404);
